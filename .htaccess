@@ -1,0 +1,7 @@
+
+ErrorDocument 404 /error_pages/404.html
+
+Redirect /old_dir/ http://htaccess.test/new_dir/index.html
+
+
+
