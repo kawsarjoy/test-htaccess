@@ -8,3 +8,7 @@ Redirect /old_dir/ http://htaccess.test/new_dir/index.html
 # deny from 127.0.0.10
 # allow from all
 
+# This Directive will make Apache look first
+# for "index_good.html" before looking for "index.html"
+
+DirectoryIndex index_good.html index.html
